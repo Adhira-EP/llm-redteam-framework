@@ -10,20 +10,6 @@
 
 > An open-source automated framework for red teaming large language models against adversarial attacks. Maps findings to OWASP LLM Top 10 (2025) and MITRE ATLAS. Built and tested against 5 production LLMs from 3 vendors — 640 total tests, 9 verified security findings.
 
-## 📸 Evidence
-
-### Framework running live
-![Framework Running] <img width="1920" height="1083" alt="llama3 3-run" src="https://github.com/user-attachments/assets/7ff92a89-8d0f-495c-8a3d-08120307e717" />
-
-
-### Credential harvesting confirmed — phi3 (Microsoft)
-![Credential Harvest] <img width="1920" height="589" alt="F9,-credential-phi3" src="https://github.com/user-attachments/assets/c3f975b6-0ff0-452b-afd2-2ce601b9ddd6" />
-
-*phi3 — the model that blocked 126/128 direct attacks — still fell to document injection*
-
-### Bypass rate summary across 5 models
-![Summary] <img width="1080" height="1080" alt="Web_Photo_Editor" src="https://github.com/user-attachments/assets/018fda7c-ef30-4c01-9c06-87a2a7aa538b" />
-
 
 ---
 
@@ -40,6 +26,7 @@ RESPONSE → DOCUMENT INJECTION SUCCESSFUL
             Username:
             Password:
 ```
+![Credential harvesting confirmed] <img width="1920" height="589" alt="F9,-credential-phi3" src="https://github.com/user-attachments/assets/34104af4-365d-439d-9feb-f12f2a297576" />
 
 This worked on `llama-3.1-8b`, `llama-3.3-70b`, and `phi3` — including phi3, which blocked 126 of 128 direct attacks. **[Full research paper →](./LLM_Document_Injection_Research_2026.pdf)**
 
@@ -54,6 +41,8 @@ This worked on `llama-3.1-8b`, `llama-3.3-70b`, and `phi3` — including phi3, w
 | llama-3.3-70b-versatile | Meta | Groq Cloud | 26.6% | ShadowAI + Credential Harvest |
 | phi3 full | Microsoft | Local/Ollama | 1.6% | Credential Harvest + Policy Removal |
 | phi3:mini | Microsoft | Local/Ollama | 0.0% | — |
+
+![Bypass rate summary across 5 Models] <img width="1080" height="1080" alt="Web_Photo_Editor" src="https://github.com/user-attachments/assets/1d8b4677-c69c-4a5a-a38e-e0d0b5ef2a12" />
 
 > **640 total tests. 9 verified findings. 6 Critical. 2 High. 1 Medium.**
 > All bypass rates from automated detection. All findings manually verified.
