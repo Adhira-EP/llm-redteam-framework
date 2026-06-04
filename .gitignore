@@ -1,0 +1,17 @@
+# Protect API keys
+.env
+.groq_key
+*.key
+
+# Keep results folder but exclude full result files
+results/*.json
+!results/sample_results.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
