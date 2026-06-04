@@ -10,12 +10,17 @@
 
 > An open-source automated framework for red teaming large language models against adversarial attacks. Maps findings to OWASP LLM Top 10 (2025) and MITRE ATLAS. Built and tested against 5 production LLMs from 3 vendors — 640 total tests, 9 verified security findings.
 
----
+## 📸 Evidence
 
-## 🎬 Demo
+### Framework running live
+![Framework Running](<img width="1920" height="1083" alt="llama3 3-run" src="https://github.com/user-attachments/assets/60791032-2869-468f-b99f-7567cc3c2174" />)
 
-> **[Watch 3-minute demo →](https://loom.com/your-link-here)**
-> Live framework run · Real bypass responses · Report walkthrough
+### Credential harvesting confirmed — phi3 (Microsoft)
+![Credential Harvest] (<img width="1920" height="1101" alt="F009,3-credential-phi3" src="https://github.com/user-attachments/assets/4b7e5a3d-0c3f-49b7-a0d1-714dcb8a699a"/>)
+*phi3 — the model that blocked 126/128 direct attacks — still fell to document injection*
+
+### Bypass rate summary across 5 models
+![Summary](<img width="1080" height="1080" alt="Web_Photo_Editor" src="https://github.com/user-attachments/assets/6f653d8b-6e15-42aa-af84-96d2c4eeed9d" />)
 
 ---
 
