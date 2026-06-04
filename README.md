@@ -13,17 +13,17 @@
 ## 📸 Evidence
 
 ### Framework running live
-![Framework Running](<img width="1920" height="1083" alt="llama3 3-run" src="https://github.com/user-attachments/assets/7ff92a89-8d0f-495c-8a3d-08120307e717" />
-)
+![Framework Running] <img width="1920" height="1083" alt="llama3 3-run" src="https://github.com/user-attachments/assets/7ff92a89-8d0f-495c-8a3d-08120307e717" />
+
 
 ### Credential harvesting confirmed — phi3 (Microsoft)
-![Credential Harvest] (<img width="1920" height="589" alt="F9,-credential-phi3" src="https://github.com/user-attachments/assets/c3f975b6-0ff0-452b-afd2-2ce601b9ddd6" />
-)
+![Credential Harvest] <img width="1920" height="589" alt="F9,-credential-phi3" src="https://github.com/user-attachments/assets/c3f975b6-0ff0-452b-afd2-2ce601b9ddd6" />
+
 *phi3 — the model that blocked 126/128 direct attacks — still fell to document injection*
 
 ### Bypass rate summary across 5 models
-![Summary](<img width="1080" height="1080" alt="Web_Photo_Editor" src="https://github.com/user-attachments/assets/018fda7c-ef30-4c01-9c06-87a2a7aa538b" />
-)
+![Summary] <img width="1080" height="1080" alt="Web_Photo_Editor" src="https://github.com/user-attachments/assets/018fda7c-ef30-4c01-9c06-87a2a7aa538b" />
+
 
 ---
 
