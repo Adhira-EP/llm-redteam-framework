@@ -1,7 +1,7 @@
 # 🔴 LLM Red Team Framework
 ### Automated Prompt Injection & Jailbreak Testing Tool
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue?style=flat-square&logo=python)
+
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Models Tested](https://img.shields.io/badge/Models%20Tested-5-red?style=flat-square)
 ![Findings](https://img.shields.io/badge/Critical%20Findings-6-darkred?style=flat-square)
